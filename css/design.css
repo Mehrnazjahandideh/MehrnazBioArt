@@ -21,10 +21,9 @@
 .hero-art {
     padding-bottom: 50px;
     width: 100%;
-    background-color: #222; /* رنگ پس زمینه کمی روشن‌تر از سیاه خالص برای تمایز */
+    background-color: #222; 
 }
 
-/* فلکس باکس برای قرار دادن عکس و متن کنار هم */
 .hero-art-content {
     min-height: 100vh;
     position: relative;
@@ -36,7 +35,7 @@
         rgb(16 16 16 / 0%) 0%
 
       ),
-      url(./img/rihana.jpg);
+      url(./img2/rihana.jpg);
     background-size: cover;
     /* background-position: center; */
     background-attachment: scroll;
@@ -98,7 +97,7 @@
 }
 
 .btn-portfolio:hover {
-    background-color: var(--main-color, #e91e63); /* استفاده از رنگ قرمز/صورتی سایت شما */
+    background-color: var(--main-color, #e91e63);/
     border-color: var(--main-color, #e91e63);
 }
 /* مخفی کردن تیک‌های رادیویی */
@@ -119,7 +118,7 @@
     padding: 8px 20px;
     background-color: transparent;
     color: #fff;
-    border: 2px solid #e91e63; /* رنگ صورتی سایت شما */
+    border: 2px solid #e91e63; 
     border-radius: 25px;
     cursor: pointer;
     transition: all 0.3s ease;
